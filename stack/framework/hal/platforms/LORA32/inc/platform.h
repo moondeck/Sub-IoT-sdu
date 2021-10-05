@@ -28,12 +28,10 @@
 
 
 /** Platform BD drivers*/
-extern blockdevice_t * const metadata_blockdevice;
-extern blockdevice_t * const persistent_files_blockdevice;
-extern blockdevice_t * const volatile_blockdevice;
+extern void * const metadata_blockdevice;
+extern void * const persistent_files_blockdevice;
+extern void * const volatile_blockdevice;
 #define PLATFORM_METADATA_BLOCKDEVICE metadata_blockdevice
 #define PLATFORM_PERMANENT_BLOCKDEVICE persistent_files_blockdevice
 #define PLATFORM_VOLATILE_BLOCKDEVICE volatile_blockdevice
-
-
 #endif

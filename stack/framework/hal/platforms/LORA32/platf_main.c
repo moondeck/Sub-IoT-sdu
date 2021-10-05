@@ -18,14 +18,14 @@
 
 int main()
 {
-    /*
+    
     // initialise the platform itself
     __platform_init();
     // do not initialise the scheduler, this is done by __framework_bootstrap()
-    __framework_bootstrap();
+    //__framework_bootstrap();
     // initialise platform functionality that depends on the framework
-    __platform_post_framework_init();
+    //__platform_post_framework_init();
 
-    scheduler_run();*/
+    scheduler_run();
     return 0;
 }
